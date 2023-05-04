@@ -1,0 +1,17 @@
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.pricing {
+    font-size: 1.5rem;
+}
+
+@media screen and (min-width: 576px) {
+    .pricing {
+        position: absolute;
+        top: 0;
+        right: 5px;
+    }
+}
